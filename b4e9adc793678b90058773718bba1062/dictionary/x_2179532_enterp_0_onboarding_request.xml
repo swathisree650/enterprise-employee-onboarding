@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="923a690b93678b90058773718bba10f5" label="Onboarding Request" max_length="40" name="x_2179532_enterp_0_onboarding_request" type="collection">
+        <element choice="3" label="Software Package" max_length="40" name="software_package" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard Developer (GitHub   Slack   AWS)" sequence="0" value="standard_developer_github_slack_aws"/>
+                <element inactive_on_update="false" label="Standard Business (Office 365   Zoom)" sequence="1" value="standard_business_office_365_zoom"/>
+            </choice>
+        </element>
+        <element choice="3" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources" sequence="2" value="human_resources"/>
+                <element inactive_on_update="false" label="Finance" sequence="3" value="finance"/>
+                <element inactive_on_update="false" label="Sales" sequence="1" value="sales"/>
+                <element inactive_on_update="false" label="Engineering" sequence="0" value="engineering"/>
+            </choice>
+        </element>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Personal Email" mandatory="true" max_length="100" name="personal_email" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" label="Laptop Model" max_length="40" name="laptop_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dell XPS 15" sequence="1" value="dell_xps_15"/>
+                <element inactive_on_update="false" label="MacBook Pro 16" sequence="0" value="macbook_pro_16"/>
+                <element inactive_on_update="false" label="Lenovo ThinkPad X1" sequence="2" value="lenovo_thinkpad_x1"/>
+            </choice>
+        </element>
+        <element label="Employee Full Name" mandatory="true" max_length="100" name="employee_full_name" type="string"/>
+        <element label="Hiring Manager" max_length="32" name="hiring_manager" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="hiring_manager"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

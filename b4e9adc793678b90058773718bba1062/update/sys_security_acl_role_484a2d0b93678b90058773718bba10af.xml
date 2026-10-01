@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 04:18:03</sys_created_on>
+        <sys_id>484a2d0b93678b90058773718bba10af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2179532_enterp_0_onboarding_request.x_2179532_enterp_0.user</sys_name>
+        <sys_package display_value="Enterprise Employee Onboarding" source="x_2179532_enterp_0">b4e9adc793678b90058773718bba1062</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Onboarding">b4e9adc793678b90058773718bba1062</sys_scope>
+        <sys_security_acl display_value="x_2179532_enterp_0_onboarding_request">0c4a2d0b93678b90058773718bba10a6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_484a2d0b93678b90058773718bba10af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 04:18:03</sys_updated_on>
+        <sys_user_role display_value="x_2179532_enterp_0.user" name="x_2179532_enterp_0.user">38e9edc793678b90058773718bba1041</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
