@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Laptop Model">1e34bd0f93a78b90058773718bba1082</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 06:28:21</sys_created_on>
+        <sys_id>fc1846c7936b8b90058773718bba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dell XPS 15</sys_name>
+        <sys_package display_value="Enterprise Employee Onboarding" source="x_2179532_enterp_0">b4e9adc793678b90058773718bba1062</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Employee Onboarding">b4e9adc793678b90058773718bba1062</sys_scope>
+        <sys_update_name>question_choice_fc1846c7936b8b90058773718bba105b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 06:28:21</sys_updated_on>
+        <text>Dell XPS 15</text>
+        <value>dell_xps_15</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=fc1846c7936b8b90058773718bba105b"/>
+</record_update>

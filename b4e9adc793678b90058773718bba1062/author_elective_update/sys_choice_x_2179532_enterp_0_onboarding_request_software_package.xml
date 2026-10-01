@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="software_package" table="x_2179532_enterp_0_onboarding_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>software_package</element>
+            <name>x_2179532_enterp_0_onboarding_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 04:27:02</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>software_package</sys_name>
+            <sys_package display_value="Enterprise Employee Onboarding" source="x_2179532_enterp_0">b4e9adc793678b90058773718bba1062</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Enterprise Employee Onboarding">b4e9adc793678b90058773718bba1062</sys_scope>
+            <sys_update_name>sys_choice_x_2179532_enterp_0_onboarding_request_software_package</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 04:27:02</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>software_package</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard Developer (GitHub   Slack   AWS)</label>
+            <language>en</language>
+            <name>x_2179532_enterp_0_onboarding_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 04:27:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 04:27:02</sys_updated_on>
+            <value>standard_developer_github_slack_aws</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>software_package</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard Business (Office 365   Zoom)</label>
+            <language>en</language>
+            <name>x_2179532_enterp_0_onboarding_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 04:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 04:28:30</sys_updated_on>
+            <value>standard_business_office_365_zoom</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
